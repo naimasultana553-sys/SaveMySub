@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { width: 300px; min-height: 150px; }
+    .header { font-weight: bold; margin-bottom: 10px; font-size: 1.1em; }
+    .detected-box { border: 1px solid var(--primary-color); padding: 10px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">SaveMySub</div>
+    <div id="status-area">
+      Scanning for subscriptions...
+    </div>
+    <div id="detection-area" class="hidden">
+      <div class="detected-box">
+        <p id="detect-text">Subscription detected!</p>
+        <button id="track-btn" class="btn btn-primary">Track Subscription</button>
+        <button id="ignore-btn" class="btn btn-secondary">Ignore</button>
+      </div>
+    </div>
+    <div id="dashboard-link-area" class="hidden">
+      <button id="open-dashboard" class="btn btn-secondary">Open Dashboard</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
