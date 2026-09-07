@@ -1,3 +1,5 @@
+﻿> Built by [Naima Sultana](https://github.com/naimasultana553-sys) | CSE Student, Bangladesh | [LinkedIn](https://www.linkedin.com/in/naima-sultana-76a678395)
+
 # SaveMySub
 
 SaveMySub is a Chrome extension designed to help people avoid unexpected subscription charges and misleading free-trial offers while browsing the web.
@@ -7,3 +9,4 @@ Many websites offer free trials, discounted subscriptions, or limited-time deals
 SaveMySub addresses this real-life problem by analyzing subscription-related information on websites and warning users when it detects potential subscription traps. It can identify important details such as free-trial periods, automatic renewals, recurring payments, cancellation information, and other terms that users may easily overlook.
 
 Instead of making users read lengthy terms and conditions manually, SaveMySub presents the important subscription information in a simple and understandable way. This allows users to make a more informed decision before entering their payment details or starting a free trial.
+
